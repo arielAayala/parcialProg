@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="keywords"
+			content="entradas, eventos, venta, conciertos, teatro, deportes" />
+		<title>Eventify - Tu App de Venta de Entradas</title>
+		<link
+			rel="stylesheet"
+			href="styles.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+	</head>
+	<body>
+		<div id="loading">
+			<p>Cargando...</p>
+		</div>
+
+		<header>
+			<h1>Eventify</h1>
+			<p>Compra tus entradas para los mejores eventos</p>
+			<a
+				href="#download"
+				class="download-btn"
+				>Descargar App</a
+			>
+		</header>
+
+		<section class="slideshow-container">
+			<div class="mySlides fade">
+				<img
+					src="event1.jpg"
+					style="width: 100%" />
+				<div class="text">Conciertos en Vivo</div>
+			</div>
+			<div class="mySlides fade">
+				<img
+					src="event2.jpg"
+					style="width: 100%" />
+				<div class="text">Teatro y Espectáculos</div>
+			</div>
+			<div class="mySlides fade">
+				<img
+					src="event3.jpg"
+					style="width: 100%" />
+				<div class="text">Eventos Deportivos</div>
+			</div>
+		</section>
+
+		<section
+			class="description"
+			data-aos="fade-up">
+			<h2>¿Por qué elegir Eventify?</h2>
+			<ul>
+				<li>Compra entradas de manera rápida y segura.</li>
+				<li>Accede a una amplia variedad de eventos.</li>
+				<li>Recibe notificaciones sobre eventos especiales y descuentos.</li>
+				<li>Soporte 24/7 para cualquier consulta o inconveniente.</li>
+			</ul>
+		</section>
+
+		<section
+			id="download"
+			class="download-section">
+			<h2>Descarga la App Ahora</h2>
+			<a
+				href="#"
+				class="download-link"
+				>Descargar para iOS</a
+			>
+			<a
+				href="#"
+				class="download-link"
+				>Descargar para Android</a
+			>
+		</section>
+
+		<footer>
+			<p>&copy; 2024 Eventify. Todos los derechos reservados.</p>
+		</footer>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+		<script src="scripts.js"></script>
+		<script>
+			AOS.init();
+		</script>
+	</body>
+</html>
